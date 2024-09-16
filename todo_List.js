@@ -36,7 +36,7 @@ taskListDiv.addEventListener('click',function(e){
 
 function save(){
     console.log(1);
-    localStorage.setItem("data",taskListContainer.innerHTML);
+    //localStorage.setItem("data",taskListContainer.innerHTML);
 }
 
 function show(){
